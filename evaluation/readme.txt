@@ -1,0 +1,2 @@
+mapping_scalar/string: 1000个类字符串与数值的对应关系
+val_scalar/string: val验证集中50000个对象的字符串与数值
