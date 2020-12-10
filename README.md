@@ -2,6 +2,8 @@
 
 The github page for WACV 2021 paper: Legacy Photo Editing with Learned Noise Prior
 
+arxiv version: https://arxiv.org/abs/2011.11309
+
 ## Legacy Photo Dataset (LP Dataset)
 
 The proposed legacy photo dataset contains approximately 25000 legacy images crawed from the Internet. The images include the real noises. If you would like to use the dataset, please send the e-mail to Yuzhi Zhao (yzzhao2-c@my.cityu.edu.hk). A brief self-introduction and the usage of LP Dataset are required. The LP Dataset only intends for research usage and any commercial use of the LP Dataset is not allowed.
@@ -29,13 +31,13 @@ Some validation samples are shown like:
 - opencv-python 4.2.0.34
 - pytorch_wavelets 1.0.0
 
-Higher version is also fine
-
 ### Training:
 
 - negan: you may alter the loss ratio for DWT-based loss for specific dataset; the discriminator of clean image domain can be removed in experiment
 - iegan-inpainting-denoising: perform joint inpainting and denoising
 - iegan-scribble-based-colorization: perform colorization
+
+sorry, currently no pre-trained models provided
 
 ## Reference
 
@@ -44,7 +46,7 @@ If you think the paper is helpful for your research, please cite:
 @inproceedings{zhao2021legacy,
   title={Legacy Photo Editing with Learned Noise Prior},
   author={Zhao, Yuzhi and Po, Lai-Man and Lin, Tingyu and Wang, Xuehui and Liu, Kangcheng and Zhang, Yujia and Yu, Win-Yin and Xian, Pengfei and Xiong, Jingjing},
-  booktitle={The IEEE Winter Conference on Applications of Computer Vision},
+  booktitle={IEEE Winter Conference on Applications of Computer Vision},
   year={2021}
 }
 ```
