@@ -8,7 +8,11 @@ IEEE/CVF version: https://openaccess.thecvf.com/content/WACV2021/html/Zhao_Legac
 
 ## Legacy Photo Dataset (LP Dataset)
 
-The proposed legacy photo dataset contains approximately 25000 legacy images crawed from the Internet. The images include the real noises. If you would like to use the dataset, please send the e-mail to Yuzhi Zhao (yzzhao2-c@my.cityu.edu.hk). A brief self-introduction and the usage of LP Dataset are required. The LP Dataset only intends for research usage and any commercial use of the LP Dataset is not allowed.
+The proposed legacy photo dataset contains approximately 25000 legacy images crawed from the Internet. The images include the real noises. The LP Dataset can only be used for research purpose and any commercial use of the LP Dataset is not allowed.
+
+If you would like to download the LP Dataset data, please fill out an agreement to the LP Dataset Terms of Use and send it to us at yzzhao2-c@my.cityu.edu.hk.
+
+Please use the institutional email instead of anonymous addresses such as Gmail, QQMail, and hotmail. Make sure your email address is the same as it in the LP Dataset Terms of Use.
 
 Some training samples are shown like:
 
@@ -39,7 +43,7 @@ Some validation samples are shown like:
 - iegan-inpainting-denoising: perform joint inpainting and denoising
 - iegan-scribble-based-colorization: perform colorization
 
-sorry, currently no pre-trained models provided
+(currently no pre-trained models provided)
 
 ## Reference
 
